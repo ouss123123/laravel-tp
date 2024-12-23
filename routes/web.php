@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+use App\Http\Controllers\RestaurantController;
+
+Route::get('/categories/{categorie}/plats', [RestaurantController::class, 'platsParCategorie']);
+Route::get('/plats/{plat}/composition', [RestaurantController::class, 'compositionPlat']);
+
