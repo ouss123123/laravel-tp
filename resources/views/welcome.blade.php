@@ -12,8 +12,5 @@
             <li><a href="/commandes/plusFivePlats">Plus Five Plats</a></li>
         </ul>
     </nav>
-    <div class="content">
-        <h1>Welcome to Laravel</h1>
-    </div>
 </body>
 </html>
